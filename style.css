@@ -194,7 +194,7 @@ ul, li{list-style: none;}
 
 /* ============END OF PRODUCT======== */
 
-/* ==========ABOUT========== */
+/* ==========CONTACT========== */
 
 .panel{
     display:grid;
@@ -208,6 +208,29 @@ ul, li{list-style: none;}
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.329);
     margin: 15px;
     padding: 10px;
+    z-index: 1;
+}
+
+fieldset{
+    padding: 25px 50px;
+    margin-top: 15px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e0dfdf, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+    border: white;
+}
+
+legend{
+    color: rgba(0, 0, 0, 0.534);
+}
+
+label{
+    width: 50px;
+}
+
+input{
+    width: 100%;
 }
 
 .panel-title{
@@ -217,19 +240,27 @@ ul, li{list-style: none;}
     width: 100%;
 }
 
-.panel-picto{
-    margin: 20px 0px;
-    width: 225px; height: 250px;
-    border-radius: 15px;
-}
-
 .panel-content{
     font-style: italic;
     font-size: 15px;
     text-align: center;
-    width: 100%;
+    width: 90%;
     color: lightslategrey;
 }
+
+.form-button{
+    background-color: rgb(113, 155, 209);
+    color: white;
+    font-family: inherit;
+    font-weight:200;
+    width: fit-content;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.form-button:hover{background-color: rgb(92, 126, 170);}
 
 /* ============END OF ABOUT======== */
 
